@@ -45,5 +45,5 @@ SELECT s.studentsLastName AS 'Debtor Last Name', s.studentsFirstName AS 'Debtor 
 FROM ordersTable AS o
 INNER JOIN students AS s -- обьединяем ordersTable с таблицей students
  	ON s.id = o.studentId -- задаем связь
-WHERE o.id=1 -- указываем требуемое значение id, какой записи требуется получить имя и фамилию студента
+WHERE o.id = 1 -- указываем требуемое значение id, какой записи требуется получить имя и фамилию студента
 ;
